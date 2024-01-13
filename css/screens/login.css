@@ -1,0 +1,79 @@
+.welcome-header {
+  margin: 96px 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome-header__title {
+  margin-bottom: 32px;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--yellow);
+}
+
+.welcome-header__text {
+  width: 70%;
+  opacity: 0.7;
+  color: var(--grey);
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 32px;
+}
+
+.login-form input {
+  padding: 16px 0px;
+  margin: 16px 8px;
+  border: none;
+  font-size: 16px;
+  border-bottom: 1px solid var(--pink);
+  background-color: var(--black);
+  transition: border-color 0.3s ease-in-out;
+  color: var(--yellow);
+}
+
+.login-form input:focus {
+  outline: none;
+  border-color: var(--yellow);
+}
+
+.login-form input:nth-child(3):hover,
+.login-form input:nth-child(4):hover {
+  border: 1px solid var(--pink);
+  transition: border-color 0.3s ease-in-out;
+  color: var(--pink);
+  transition: color 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.login-form input:nth-child(4):hover {
+  color: whitesmoke;
+}
+
+.login-form input:nth-child(3) {
+  margin-top: 64px;
+  border: 1px solid var(--yellow);
+  padding: 24px;
+  border-radius: 4px;
+}
+
+.login-form input:nth-child(4) {
+  border: 1px solid var(--yellow);
+  color: var(--black);
+  background-color: var(--yellow);
+  padding: 24px;
+  border-radius: 4px;
+}
+
+.login-form a {
+  text-align: center;
+  text-decoration: none;
+  color: var(--grey);
+  font-size: 14px;
+  margin-top: 48px;
+}
