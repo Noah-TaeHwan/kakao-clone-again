@@ -5,11 +5,25 @@
   align-items: center;
 }
 
-.user-component__column__avatar {
+.user-component__column__avatar--xl {
   width: 80px;
   height: 80px;
   border-radius: 32px;
   margin: 24px;
+}
+
+.user-component__column__avatar--m {
+  width: 64px;
+  height: 64px;
+  border-radius: 24px;
+  margin: 4px 0px 4px 24px;
+}
+
+.user-component__column__avatar--s {
+  width: 48px;
+  height: 48px;
+  border-radius: 20px;
+  margin: 4px 0px 4px 24px;
 }
 
 .user-component__column__text-title {
