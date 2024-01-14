@@ -25,7 +25,7 @@
 
 .pung-component__column-create span,
 .pung-component__column-first span {
-  margin-top: 16px;
+  margin: 16px 0px;
   color: var(--grey);
 }
 
