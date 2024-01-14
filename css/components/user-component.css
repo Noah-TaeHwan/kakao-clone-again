@@ -1,0 +1,39 @@
+.user-component,
+.user-component__column:first-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-component__column__avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 32px;
+  margin: 24px;
+}
+
+.user-component__column__text-title {
+  color: var(--grey);
+  font-weight: 500;
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+
+.user-component__column__text-subtitle {
+  color: var(--grey);
+  opacity: 0.5;
+  margin-top: 8px;
+  font-size: 16px;
+}
+
+.user-component__column__status {
+  margin-right: 24px;
+  width: 80px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  border: 1px solid var(--grey);
+  color: var(--grey);
+}
