@@ -4,6 +4,7 @@
 /* COMPOENETS */
 @import url(/css/components/status-bar.css);
 @import url(/css/components/nav-bar.css);
+@import url(/css/components/screen-header.css);
 
 /* SCREENS */
 @import url(/css/screens/login.css);
