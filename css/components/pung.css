@@ -1,0 +1,38 @@
+.pung-component__column {
+  display: flex;
+}
+
+.pung-component__column-create-card,
+.pung-component__column-create-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--pink);
+  width: 96px;
+  height: 128px;
+  border-radius: 8px;
+  font-size: 48px;
+  font-weight: 200;
+  color: whitesmoke;
+}
+
+.pung-component__column-create {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pung-component__column-create span,
+.pung-component__column-first span {
+  margin-top: 16px;
+  color: var(--grey);
+}
+
+.pung-component__column-first {
+  margin-left: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

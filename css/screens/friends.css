@@ -14,14 +14,15 @@
   color: var(--grey);
 }
 
-.friends-screen__updatedProfiles-header {
+.friends-screen__updatedProfiles-header,
+.friends-screen__pung-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: var(--horizontal-space) 0px;
   border-top: 1px solid var(--yellow);
   color: var(--yellow);
-  margin: 0px 24px;
+  margin: 16px 24px 0px 24px;
 }
 
 .friends-screen__updatedProfiles {
@@ -49,4 +50,8 @@
   position: absolute;
   right: 64px;
   top: 0px;
+}
+
+.pung-component__column {
+  margin-left: 24px;
 }
