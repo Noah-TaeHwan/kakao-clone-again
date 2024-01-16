@@ -8,7 +8,7 @@
 }
 
 .welcome-header__title {
-  margin-bottom: 32px;
+  margin: 32px 24px;
   font-size: 28px;
   font-weight: 700;
   color: var(--yellow);

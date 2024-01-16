@@ -16,14 +16,21 @@
   width: 64px;
   height: 64px;
   border-radius: 24px;
-  margin: 4px 0px 4px 24px;
+  margin: 8px 0px 8px 24px;
 }
 
 .user-component__column__avatar--s {
   width: 48px;
   height: 48px;
   border-radius: 20px;
-  margin: 4px 0px 4px 24px;
+  margin: 8px 0px 8px 24px;
+}
+
+.user-component__column__avatar--xs {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  margin: 8px 0px 8px 24px;
 }
 
 .user-component__column__text-title {
@@ -49,5 +56,17 @@
   align-items: center;
   border-radius: 40px;
   border: 1px solid var(--grey);
+  color: var(--grey);
+}
+
+.user-component__column__gift-btn {
+  margin-right: 24px;
+  width: 120px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  border: 1px solid var(--pink);
   color: var(--grey);
 }

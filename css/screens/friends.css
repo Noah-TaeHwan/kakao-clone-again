@@ -16,7 +16,11 @@
 
 .friends-screen__updatedProfiles-header,
 .friends-screen__pung-header,
-.friends-screen__ad {
+.friends-screen__ad,
+.friends-screen__birthday-header,
+.friends-screen__recommendedFriends-header,
+.friends-screen__channel-header,
+.friends-screen__friendsList-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -62,4 +66,20 @@
   height: 100%;
   object-fit: contain;
   border-radius: 8px;
+}
+
+.friends-screen__birthday img,
+.friends-screen__friendsList img {
+  margin-right: 16px;
+  margin-bottom: 16px;
+}
+
+.friends-screen__birthday h4,
+.friends-screen__friendsList h4 {
+  font-weight: 300;
+}
+
+.icon_gift {
+  margin-left: 8px;
+  color: var(--pink);
 }
