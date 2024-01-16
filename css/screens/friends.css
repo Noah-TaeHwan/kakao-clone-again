@@ -9,11 +9,6 @@
   opacity: 0.5;
 }
 
-.icon_info {
-  margin-right: 8px;
-  color: var(--grey);
-}
-
 .friends-screen__updatedProfiles-header,
 .friends-screen__pung-header,
 .friends-screen__ad,
@@ -33,18 +28,6 @@
 .friends-screen__updatedProfiles {
   display: flex;
   flex-direction: column;
-}
-
-.user-component__column-m {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-}
-
-.user-component__column__text-title-m {
-  font-size: 14px;
-  margin: 8px 0px 8px 24px;
 }
 
 .red-dot-avatar {
@@ -77,9 +60,4 @@
 .friends-screen__birthday h4,
 .friends-screen__friendsList h4 {
   font-weight: 300;
-}
-
-.icon_gift {
-  margin-left: 8px;
-  color: var(--pink);
 }

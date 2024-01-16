@@ -70,3 +70,15 @@
   border: 1px solid var(--pink);
   color: var(--grey);
 }
+
+.user-component__column-m {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.user-component__column__text-title-m {
+  font-size: 14px;
+  margin: 8px 0px 8px 24px;
+}

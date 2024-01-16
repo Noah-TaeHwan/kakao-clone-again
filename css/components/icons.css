@@ -1,0 +1,13 @@
+.icon_gps {
+  color: #007afe;
+}
+
+.icon_info {
+  margin-right: 8px;
+  color: var(--grey);
+}
+
+.icon_gift {
+  margin-left: 8px;
+  color: var(--pink);
+}
