@@ -1,0 +1,81 @@
+.chips {
+  width: 110%;
+  display: flex;
+  justify-content: center;
+}
+
+.chips-search {
+  color: var(--grey);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--grey);
+  width: 196px;
+  height: 32px;
+  padding: 4px;
+  border-radius: 32px;
+  margin: 4px;
+}
+
+.chips-search:first-child {
+  margin-left: 24px;
+  margin-bottom: 24px;
+}
+
+.chips-search span {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 8px;
+}
+
+.chips-search svg {
+  color: var(--grey);
+}
+
+.chips-chatroom {
+  color: var(--yellow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 196px;
+  height: 32px;
+  padding: 4px;
+  border-radius: 32px;
+  margin: 4px;
+  background-color: var(--pink);
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.chips-chatroom span {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 8px;
+  width: 128px;
+}
+
+.chips-chatroom svg {
+  color: var(--yellow);
+}
+
+.chips-hot {
+  color: var(--grey);
+  border: 1px solid var(--grey);
+  height: 32px;
+  padding: 4px;
+  border-radius: 32px;
+  margin: 4px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chips-hot span {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 8px;
+}

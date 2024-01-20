@@ -11,3 +11,12 @@
   margin-left: 8px;
   color: var(--pink);
 }
+
+.icon_search-sm {
+  margin-left: 8px;
+  margin-top: 4px;
+}
+
+.icon_bubble-sm {
+  margin-left: 8px;
+}

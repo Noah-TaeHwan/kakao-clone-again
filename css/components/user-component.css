@@ -47,6 +47,13 @@
   font-size: 16px;
 }
 
+.user-component__column__text-sponsored {
+  color: var(--grey);
+  opacity: 0.5;
+  margin-top: 8px;
+  font-size: 16px;
+}
+
 .user-component__column__status {
   margin-right: 24px;
   width: 80px;
@@ -100,8 +107,4 @@
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
-}
-
-.chat--chats {
-  height: 96px;
 }

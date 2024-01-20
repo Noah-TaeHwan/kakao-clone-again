@@ -1,0 +1,41 @@
+.nav--openChats .nav__btn:nth-child(3) svg,
+.nav--openChats .nav__btn:nth-child(3) span {
+  opacity: 1;
+}
+
+.nav--openChats .nav__btn:nth-child(1) svg,
+.nav--openChats .nav__btn:nth-child(1) span:nth-child(2) {
+  opacity: 0.3;
+}
+
+/* .banner--chats {
+  border: none;
+  margin-top: 0;
+  margin-bottom: 16px;
+  padding: 0;
+}
+
+.chat--chats img {
+  margin-top: 16px;
+}
+
+.chat--chats div:nth-child(2) {
+  margin: 16px;
+} */
+
+.openChat--chats img {
+  margin-right: 16px;
+}
+
+.openChat--chats svg {
+  margin-right: 24px;
+}
+
+.user-component__column__text-subtitle {
+  color: var(--yellow);
+  font-weight: 700;
+}
+
+.user-component__column__text-sponsored {
+  color: var(--pink);
+}

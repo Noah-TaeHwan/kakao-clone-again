@@ -1,0 +1,136 @@
+.nav--shopping .nav__btn:nth-child(4) svg,
+.nav--shopping .nav__btn:nth-child(4) span {
+  opacity: 1;
+}
+
+.nav--shopping .nav__btn:nth-child(1) svg,
+.nav--shopping .nav__btn:nth-child(1) span:nth-child(2) {
+  opacity: 0.3;
+}
+
+.shopping--menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: red;
+  width: 100%;
+  height: 48px;
+  border-bottom: 1px solid var(--yellow);
+  padding: 0px 24px;
+}
+
+.shopping--menu span {
+  color: var(--grey);
+  opacity: 0.5;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.shopping--menu span:nth-child(2) {
+  color: var(--yellow);
+  opacity: 1;
+  font-weight: 700;
+}
+
+.shopping-card {
+  display: flex;
+  justify-content: space-between;
+  margin: 24px;
+}
+
+.shopping-card img {
+  border-radius: 24px;
+  margin-right: 16px;
+  margin-top: 16px;
+}
+
+.shopping__subMenu {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 24px;
+}
+
+.shopping__btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.shopping__btn span:first-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  width: 72px;
+  height: 72px;
+  border-radius: 28px;
+  margin: 12px 0px;
+}
+
+.shopping__btn span:first-child {
+  font-size: 40px;
+}
+
+.shopping__btn span:last-child {
+  color: var(--yellow);
+}
+
+.shopping__search {
+  background-color: var(--yellow);
+  margin: 24px;
+  height: 40px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 8px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.shopping__search svg {
+  margin-right: 8px;
+  margin-bottom: 4px;
+  color: whitesmoke;
+}
+
+.shopping__search span {
+  color: whitesmoke;
+}
+
+.shopping__deal--title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 32px 24px;
+}
+
+.shopping__deal--title span {
+  display: flex;
+  align-items: center;
+}
+
+.shopping__deal--title span:first-child {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--pink);
+}
+
+.shopping__deal--title span:last-child {
+  color: var(--yellow);
+  opacity: 0.5;
+}
+.shopping__deal--list {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 24px;
+}
+
+.shopping__deal--list img {
+  margin-right: 8px;
+  border-radius: 16px;
+}
