@@ -18,12 +18,17 @@
   margin-left: 16px;
 }
 
-.alt-header__column:first-child {
-  margin-right: auto;
+.alt-header__column:nth-last-child(1) {
+  width: 33%;
+  text-align: end;
 }
 
-.alt-header__column:last-child {
-  margin-left: auto;
+.alt-header__column:nth-last-child(2) {
+  width: 33%;
+  text-align: center;
+}
+.alt-header__column:nth-last-child(3) {
+  width: 33%;
 }
 
 .settings-list {

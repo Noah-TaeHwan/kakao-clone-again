@@ -1,14 +1,37 @@
-.alt-header__column svg:nth-child(1) {
-  margin-right: 24px;
+.chat-screen header {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  background-color: var(--black);
 }
 
-.alt-header__column:first-child {
-  margin-right: auto;
+.chat-screen .alt-header__column:nth-last-child(1) {
+  width: 33%;
+  text-align: end;
 }
 
-.alt-header__column:last-child {
-  margin-left: auto;
+.chat-screen .alt-header__column:nth-last-child(2) {
+  width: 33%;
+  text-align: center;
+}
+.chat-screen .alt-header__column:nth-last-child(3) {
+  width: 33%;
 }
 
-.chat-screen {
+.chat-screen .icon_search {
+  margin-right: 16px;
+}
+
+.main-chat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat__timestamp {
+  color: red;
+  margin-top: 184px;
+  text-align: center;
+  background-color: blue;
+  width: 196px;
 }

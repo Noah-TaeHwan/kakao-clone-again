@@ -9,6 +9,8 @@
   box-sizing: border-box;
   width: 100%;
   color: whitesmoke;
+  z-index: 10;
+  background-color: var(--black);
 }
 
 .status-bar__column {
