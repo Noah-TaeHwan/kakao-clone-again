@@ -17,6 +17,7 @@
 @import url(/css/screens/chats.css);
 @import url(/css/screens/openchat.css);
 @import url(/css/screens/shopping.css);
+@import url(/css/screens/more.css);
 
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
