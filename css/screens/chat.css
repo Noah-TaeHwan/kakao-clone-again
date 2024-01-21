@@ -161,3 +161,13 @@
   right: 0px;
   top: 0px;
 }
+
+.home-bar {
+  width: 200px;
+  height: 8px;
+  border-radius: 8px;
+  background-color: var(--yellow);
+  position: absolute;
+  bottom: 15%;
+  right: 30.2%;
+}

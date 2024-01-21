@@ -60,3 +60,46 @@
 .friends-screen__friendsList h4 {
   font-weight: 300;
 }
+
+#splash-screen {
+  background-color: var(--yellow);
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  z-index: 15;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: hideSplashScreen 2s ease 0s 1 normal forwards;
+  animation-delay: 1s;
+}
+
+#splash-screen svg {
+  color: var(--black);
+  width: 196px;
+  animation: myAnim 2s ease 0s 1 normal forwards;
+  animation-delay: 0s;
+}
+
+@keyframes myAnim {
+  0% {
+    opacity: 1;
+    transform: scale(0.5);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(1);
+  }
+}
+
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}

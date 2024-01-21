@@ -9,4 +9,17 @@
   justify-content: center;
   align-items: center;
   color: var(--yellow);
+  animation: notificationAnimation 3s ease-in-out infinite;
+}
+
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px) rotateY(90deg);
+  }
+  100% {
+    transform: none;
+  }
 }
