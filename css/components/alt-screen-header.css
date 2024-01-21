@@ -56,3 +56,22 @@
 .settings-setting .settings__setting-column:nth-child(2) {
   opacity: 0.5;
 }
+
+.alt-header__column svg:hover {
+  will-change: transform;
+  animation: focusIcons 1s ease-in-out forwards;
+}
+
+@keyframes focusIcons {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: scale(1.5);
+    color: var(--pink);
+  }
+  100% {
+    transform: scale(1.5);
+    color: var(--pink);
+  }
+}

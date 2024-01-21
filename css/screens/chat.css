@@ -27,6 +27,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  animation: fadeIn 1s linear;
 }
 
 .chat__timestamp {
@@ -130,6 +131,7 @@
   border: 1px solid var(--grey);
   padding: 8px 24px;
   margin-bottom: 40px;
+  transition: all 0.5s ease-in-out;
 }
 
 .reply__column:nth-child(1) > svg {
@@ -170,4 +172,35 @@
   position: absolute;
   bottom: 15%;
   right: 30.2%;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+.reply svg,
+.reply button,
+.reply .reply__column:first-child {
+  transition: opacity 1s ease-in-out;
+}
+
+.reply:focus-within svg,
+.reply:focus-within button,
+.reply:focus-within .reply__column:first-child {
+  will-change: transform;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.reply:focus-within input {
+  width: 90vw;
+  transform: translateX(-48px);
+  right: -16px;
 }

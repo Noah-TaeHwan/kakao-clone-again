@@ -11,6 +11,7 @@
 @import url(/css/components/badge.css);
 @import url(/css/components/chips.css);
 @import url(/css/components/alt-screen-header.css);
+@import url(/css/components/no-mobile.css);
 
 /* SCREENS */
 @import url(/css/screens/login.css);
