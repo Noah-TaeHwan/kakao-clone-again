@@ -1,0 +1,14 @@
+.alt-header__column svg:nth-child(1) {
+  margin-right: 24px;
+}
+
+.alt-header__column:first-child {
+  margin-right: auto;
+}
+
+.alt-header__column:last-child {
+  margin-left: auto;
+}
+
+.chat-screen {
+}

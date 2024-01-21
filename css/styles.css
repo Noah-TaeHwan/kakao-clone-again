@@ -10,6 +10,7 @@
 @import url(/css/components/icons.css);
 @import url(/css/components/badge.css);
 @import url(/css/components/chips.css);
+@import url(/css/components/alt-screen-header.css);
 
 /* SCREENS */
 @import url(/css/screens/login.css);
@@ -18,6 +19,7 @@
 @import url(/css/screens/openchat.css);
 @import url(/css/screens/shopping.css);
 @import url(/css/screens/more.css);
+@import url(/css/screens/chat.css);
 
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,

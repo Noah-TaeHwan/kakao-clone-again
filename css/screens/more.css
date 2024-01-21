@@ -91,7 +91,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 24px;
   padding: 16px;
 }
 
@@ -104,9 +103,15 @@
 
 .icon-title svg {
   color: whitesmoke;
+  margin: 24px;
 }
 
 .icon-title span {
   color: whitesmoke;
   font-size: 14px;
+  margin: -12px;
+}
+
+.more-ad img {
+  margin-top: 32px;
 }
