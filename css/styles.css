@@ -1,26 +1,26 @@
-@import url(/kakaoAain2024/css/reset.css);
-@import url(/kakaoAain2024/css/variables.css);
+@import '../../css/reset.css';
+@import '../../css/variables.css';
 
 /* COMPOENETS */
-@import url(/kakaoAain2024/css/components/status-bar.css);
-@import url(/kakaoAain2024/css/components/nav-bar.css);
-@import url(/kakaoAain2024/css/components/screen-header.css);
-@import url(/kakaoAain2024/css/components/user-component.css);
-@import url(/kakaoAain2024/css/components/pung.css);
-@import url(/kakaoAain2024/css/components/icons.css);
-@import url(/kakaoAain2024/css/components/badge.css);
-@import url(/kakaoAain2024/css/components/chips.css);
-@import url(/kakaoAain2024/css/components/alt-screen-header.css);
-@import url(/kakaoAain2024/css/components/no-mobile.css);
+@import '../../css/components/status-bar.css';
+@import '../../css/components/nav-bar.css';
+@import '../../css/components/screen-header.css';
+@import '../../css/components/user-component.css';
+@import '../../css/components/pung.css';
+@import '../../css/components/icons.css';
+@import '../../css/components/badge.css';
+@import '../../css/components/chips.css';
+@import '../../css/components/alt-screen-header.css';
+@import '../../css/components/no-mobile.css';
 
 /* SCREENS */
-@import url(/kakaoAain2024/css/screens/login.css);
-@import url(/kakaoAain2024/css/screens/friends.css);
-@import url(/kakaoAain2024/css/screens/chats.css);
-@import url(/kakaoAain2024/css/screens/openchat.css);
-@import url(/kakaoAain2024/css/screens/shopping.css);
-@import url(/kakaoAain2024/css/screens/more.css);
-@import url(/kakaoAain2024/css/screens/chat.css);
+@import '../../css/screens/login.css';
+@import '../../css/screens/friends.css';
+@import '../../css/screens/chats.css';
+@import '../../css/screens/openchat.css';
+@import '../../css/screens/shopping.css';
+@import '../../css/screens/more.css';
+@import '../../css/screens/chat.css';
 
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
